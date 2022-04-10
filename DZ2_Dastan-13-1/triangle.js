@@ -7,17 +7,16 @@ while (star.length<=7) {
 
 const roster = [];
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 101; i++){
 
     if (i % 15 === 0) {
-    roster.push("FizzBuzz");
+    console.log(i, "FizzBuzz");
 } else if (i % 3 === 0) {
-    roster.push("Fizz");
+    console.log(i, "Fizz");
 } else if (i % 5 === 0) {
-    roster.push("Buzz");
+    console.log(i, "Buzz");
 } else {
-    roster.push(i);
+    console.log(i)
 }
 }
 
-console.log(roster);
