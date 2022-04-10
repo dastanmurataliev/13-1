@@ -5,7 +5,6 @@ while (star.length<=7) {
     star+="*";
 }
 
-const roster = [];
 
 for (let i = 1; i <= 101; i++){
 
