@@ -68,6 +68,7 @@ const block3 = document.getElementById('block3')
 //     input.value = "";
 // }
 
+
 const button = document.getElementById('button')
 const input = document.getElementById('input')
 
