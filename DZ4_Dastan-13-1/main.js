@@ -1,14 +1,4 @@
-// let count = document.getElementById('counter');
-// document.getElementById('countPlus').onclick = function () {
-// let num = 0;
-// if (num <= 100){
-//     num++;
-// }
-// }
-// document.getElementById('countMinus').onclick = function () {
-// let num
-// }
-//
+
 const plus = document.getElementById('plus')
 const minus = document.getElementById('minus')
 const score = document.getElementById('score')
