@@ -28,6 +28,7 @@ body:hover {
     border: none;
     color: white;
     font-size: 40px;
+    line-height: 60px;
     font-weight: 800;
 }
 
