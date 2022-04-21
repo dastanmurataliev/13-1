@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #4b0082;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 500px;
+    border: 2px solid #fff;
+    padding: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header input {
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+}
+.header button {
+    width: 20%;
+}
+.toDoBlock {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.actions button {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.toDoBlock p {
+    columns: #fff;
+    font-size: 18px;
+}
+p {
+    color: #fff;
+}
+.change {
+    background: darkgoldenrod;
+    color: #fff;
+}
+.delete {
+    background: darkred;
+    color: #ffffff;
+}
