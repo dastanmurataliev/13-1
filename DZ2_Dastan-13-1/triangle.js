@@ -1,6 +1,6 @@
 let  star= "*"
 
-for (star.length<=7) {
+for (star.length<=7){
     console.log(star);
     star+="*";
 }
