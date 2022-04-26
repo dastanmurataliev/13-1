@@ -14,12 +14,11 @@ function render() {
         divList.append(p);
         MainDiv.append(divList);
     }
-
     const form = document.querySelector(".block");
     document.querySelector(".list").remove();
     form.append(MainDiv)
-}
 
+}
 hello.onclick = function () {
         const obj = {
             id: list.length,
@@ -30,13 +29,14 @@ hello.onclick = function () {
         render()
 }
 
-const mass = [0]
+const mass = [0];
 const mass2 = ["4444,333,21,1233,2424"];
 const mass3 = ["55531,3000,41,3343"];
 const mass4 = ["23135678,333,441,80878"];
 const mass5 = ["23231,333,137090,6544"];
 const massive = {...mass,mass2,mass3,mass4,mass5
 }
+
 console.log(massive)
 
 const object = {
