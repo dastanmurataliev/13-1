@@ -60,47 +60,90 @@
 // Tomka.woice()
 // console.log(arez)
 
-class sweetHome {
-    constructor(material, height, length, width, floors, roof, form, yearOfBuilding, territory, garden, gateColor) {
-        this.material = material;
-        this.lenght = length;
-        this.width = width;
-        this.floors = floors;
-        this.roof = roof;
-        this.height = height;
-        this.form = form;
-        this.yearOfBuilding = yearOfBuilding;
-        this.territory = territory;
-        this.garden = garden;
-        this.gateColor = gateColor;
+// class sweetHome {
+//     constructor(material, height, length, width, floors, roof, form, yearOfBuilding, territory, garden, gateColor) {
+//         this.material = material;
+//         this.lenght = length;
+//         this.width = width;
+//         this.floors = floors;
+//         this.roof = roof;
+//         this.height = height;
+//         this.form = form;
+//         this.yearOfBuilding = yearOfBuilding;
+//         this.territory = territory;
+//         this.garden = garden;
+//         this.gateColor = gateColor;
+//
+//     }
+// }
+// class crazyHouse extends sweetHome {
+//     constructor(material, height, length, width,floors,roof, form, yearOfBuilding, territory, garden, gateColor, roofColor, rooms, windows, gardenTrees,doorColors) {
+//         super(material, height, length, width,floors,roof,form, yearOfBuilding, territory, garden, gateColor);
+//         this.roofColor =roofColor;
+//         this.rooms = rooms;
+//         this.windows = windows;
+//         this.gardenTrees = gardenTrees;
+//         this.doorColors = doorColors;
+//     }
+// }
+// const Home = new crazyHouse("brick",
+//     6,
+//     8,
+//     6,
+//     2,
+//     "metal",
+//     "square",
+//     2012,
+//     "1200m2",
+//     "600m2",
+//     "Cherry",
+//     "darkGrey",
+//     10,
+//     12,
+//     "apple,cherry,peach,pear",
+//     "darkRed,Brown",
+//     )
+// console.log(Home)
 
+class fuck {
+    constructor(type, languages, schoolwork, manager, motherfuckers, numberOfStudents, numberOfGrades, teachers) {
+        this.type = type,
+        this.languages = languages,
+        this.schoolwork = schoolwork,
+        this.manager = manager,
+        this.motherfuckers = motherfuckers,
+        this.numberOfStudents = numberOfStudents,
+        this.numberOfGrades = numberOfGrades,
+        this.teachers = teachers
     }
 }
-class crazyHouse extends sweetHome {
-    constructor(material, height, length, width,floors,roof, form, yearOfBuilding, territory, garden, gateColor, roofColor, rooms, windows, gardenTrees,doorColors) {
-        super(material, height, length, width,floors,roof,form, yearOfBuilding, territory, garden, gateColor);
-        this.roofColor =roofColor;
-        this.rooms = rooms;
-        this.windows = windows;
-        this.gardenTrees = gardenTrees;
-        this.doorColors = doorColors;
+class fucker extends fuck {
+    constructor(type, languages, schoolwork, manager, motherfuckers, numberOfStudents, numberOfGrades, teachers,nine,ten,eleven,twelve,thirteen,fourteen,fifteen) {
+        super(type, languages, schoolwork, manager, motherfuckers, numberOfStudents, numberOfGrades, teachers);
+        this.nine = nine,
+        this.ten = ten,
+        this.eleven = eleven,
+        this.twelve = twelve,
+        this.thirteen = thirteen,
+        this.fourteen = fourteen,
+        this.fifteen = fifteen
     }
 }
-const Home = new crazyHouse("brick",
-    6,
-    8,
-    6,
-    2,
-    "metal",
-    "square",
-    2012,
-    "1200m2",
-    "600m2",
-    "Cherry",
-    "darkGrey",
-    10,
-    12,
-    "apple,cherry,peach,pear",
-    "darkRed,Brown",
-    )
-console.log(Home)
+
+const school = new fucker(
+    "kyrgyzcha ele",
+    "kg,ru.en",
+    17,
+    "Chynara",
+    "Завучи",
+    1800,
+    11,
+    "плохие",
+    "но",
+    "если",
+    "постараться",
+    "то можно зашарить",
+    "дальше просто ",
+    "фантазии не хватило",
+    "лень вспоминать про школу:))"
+)
