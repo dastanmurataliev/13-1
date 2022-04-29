@@ -40,7 +40,7 @@ let score = 0;
 // bird position
 let xPos = 15;
 let yPos =180;
-let gravity = 1.4;
+let gravity = 1.3;
 
 
 function draw() {
@@ -65,7 +65,7 @@ function draw() {
              {
             location.reload(); // TRY AGAIN
         }
-        if (flap[i].x == 15) {
+        if (flap[i].x == -40) {
             score++;
             audio.play();
         }
