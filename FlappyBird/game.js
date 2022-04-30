@@ -40,7 +40,7 @@ let score = 0;
 // bird position
 let xPos = 15;
 let yPos =180;
-let gravity = 1.3;
+let gravity = 1.4;
 
 
 function draw() {
